@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Mini Game</title>
+</head>
+
+<body>
+  
+  <header class="header">
+    <button id="resetBtn">Again!</button>
+    <p id="headerBetween">(Between 1 and 20)</p>
+  </header>
+
+  <div class="game-container">
+    <div class="game-container-catch">
+      <h1 id="hintText">Catch the Number!</h1>
+      <div class="game-question" id="gameQuestion">?</div>
+    </div>
+    <div class="game-container-check">
+      <div class="game-container-btn">
+        <input type="text" class="input" />
+        <br />
+        <button id="checkBtn">Check!</button>
+      </div>
+      <div class="game-container-result">
+        <h3 id="gameStart">Start catching...</h3>
+        <p id="gameScore">💯Your Score: <span class="active-score"></span></p>
+        <p id="gameHighScore">🥇Highscore: <span class="highscore"></span></p>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
